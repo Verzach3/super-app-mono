@@ -1,0 +1,53 @@
+{
+  "name": "platform",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@repo/backend-routers": "workspace:*",
+    "@mantine/carousel": "^7.6.1",
+    "@mantine/charts": "^7.6.1",
+    "@mantine/code-highlight": "^7.6.1",
+    "@mantine/core": "^7.6.1",
+    "@mantine/dates": "^7.6.1",
+    "@mantine/dropzone": "^7.6.1",
+    "@mantine/form": "^7.6.1",
+    "@mantine/hooks": "^7.6.1",
+    "@mantine/modals": "^7.6.1",
+    "@mantine/notifications": "^7.6.1",
+    "@mantine/nprogress": "^7.6.1",
+    "@mantine/spotlight": "^7.6.1",
+    "@mantine/tiptap": "^7.6.1",
+    "@tabler/icons-react": "^2.47.0",
+    "@tanstack/react-query": "^5.25.0",
+    "@tiptap/extension-link": "^2.2.4",
+    "@tiptap/react": "^2.2.4",
+    "@tiptap/starter-kit": "^2.2.4",
+    "@trpc/client": "11.0.0-next-beta.316",
+    "@trpc/next": "11.0.0-next-beta.316",
+    "@trpc/react-query": "11.0.0-next-beta.316",
+    "dayjs": "^1.11.10",
+    "embla-carousel-react": "^7.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}

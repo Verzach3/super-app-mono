@@ -1,0 +1,16 @@
+{
+  "name": "@repo/backend-routers",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "private": true,
+  "dependencies": {
+    "@trpc/client": "11.0.0-next-beta.316",
+    "@trpc/server": "11.0.0-next-beta.316",
+    "zod": "^3.22.4"
+  }
+}
