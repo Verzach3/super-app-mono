@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@repo/backend-routers": "workspace:*",
+    "@supabase/supabase-js": "^2.39.7",
     "@trpc/client": "11.0.0-next-beta.316",
     "@trpc/server": "11.0.0-next-beta.316",
     "cors": "^2.8.5",
